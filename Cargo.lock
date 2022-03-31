@@ -128,8 +128,7 @@ dependencies = [
 [[package]]
 name = "bitcoin"
 version = "0.28.0-rc.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fbcdc1e8a189ee0421557ce7adcbc001df053076d75ab6b7d0d645e13cf414ff"
+source = "git+https://github.com/LNP-BP/rust-bitcoin?branch=canary#7bb29d32b3300a224ee0e31f73d59602473090c9"
 dependencies = [
  "base64-compat",
  "bech32",
@@ -247,9 +246,9 @@ dependencies = [
 
 [[package]]
 name = "clap"
-version = "3.1.6"
+version = "3.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d8c93436c21e4698bacadf42917db28b23017027a4deccb35dbe47a7e7840123"
+checksum = "c67e7973e74896f4bba06ca2dcfd28d54f9cb8c035e940a32b88ed48f5f5ecf2"
 dependencies = [
  "atty",
  "bitflags",
@@ -264,9 +263,9 @@ dependencies = [
 
 [[package]]
 name = "clap_derive"
-version = "3.1.4"
+version = "3.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "da95d038ede1a964ce99f49cbe27a7fb538d1da595e4b4f70b8c8f338d17bf16"
+checksum = "a3aab4734e083b809aaf5794e14e756d1c798d2c69c7f7de7a09a2f5214993c1"
 dependencies = [
  "heck",
  "proc-macro-error",
@@ -297,9 +296,9 @@ dependencies = [
 
 [[package]]
 name = "commit_verify"
-version = "0.7.0-alpha.2"
+version = "0.7.0-alpha.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "24cc940241eebfb7348b4ccaf4693502994b51203db316ed582d8d40e6cc9595"
+checksum = "7b35f586e851bbcaf8fbb0458c6690de0f92c00f7b8dedbf4816cbbd6cab828a"
 dependencies = [
  "amplify",
  "bitcoin_hashes 0.10.0",
@@ -486,9 +485,9 @@ checksum = "b9e0384b61958566e926dc50660321d12159025e767c18e043daf26b70104c39"
 
 [[package]]
 name = "indexmap"
-version = "1.8.0"
+version = "1.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "282a6247722caba404c065016bbfa522806e51714c34f5dfc3e4a3a46fcb4223"
+checksum = "0f647032dfaa1f8b6dc29bd3edb7bbef4861b8b8007ebb118d6db284fd59f6ee"
 dependencies = [
  "autocfg 1.1.0",
  "hashbrown",
